@@ -105,7 +105,7 @@
 @end
 
 @implementation CWViewController
-
+@synthesize preferredStatusBarStyle=_preferredStatusBarStyle;
 - (UIStatusBarStyle)preferredStatusBarStyle
 {
     return _preferredStatusBarStyle;
